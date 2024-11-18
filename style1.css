@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Work+Sans:ital,wght@0,400;0,500;1,300&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('background.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.send-button {
+  background-color: turquoise; 
+  color: black; 
+  padding: 8px 60px; 
+  border: none; 
+  border-radius: 50px; 
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.send-button:hover {
+  background-color: rgba(64, 224, 208, 0.5); 
+  color: black; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 3rem; 
+  background:transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(100%);
+}
+.mb-3{
+  font-weight: bold;
+  margin-left: 7rem;
+}
+
+
+
+
